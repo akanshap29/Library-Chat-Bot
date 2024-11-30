@@ -1,0 +1,30 @@
+{
+  "name": "lib-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.2",
+    "dialogflow": "^4.0.3",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.7.0",
+    "node-cron": "^3.0.3",
+    "razorpay": "^2.9.4",
+    "whatsapp-web.js": "^1.26.0"
+  },
+  "devDependencies": {
+    "@types/dialogflow-fulfillment": "^0.6.1",
+    "nodemon": "^3.1.7"
+  }
+}
